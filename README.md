@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@deno/mod.js';
+import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@v0.1.0-deno/mod.js';
 ```
 
 #### prevGraphemeClusterBreak( string\[, fromIndex] )
@@ -98,7 +98,7 @@ var out = prevGraphemeClusterBreak( 'last man standing', 4 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@deno/mod.js';
+import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@v0.1.0-deno/mod.js';
 
 console.log( prevGraphemeClusterBreak( 'last man standing', 4 ) );
 // => 3
