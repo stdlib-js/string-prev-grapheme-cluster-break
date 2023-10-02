@@ -45,31 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/string-prev-grapheme-cluster-break
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var prevGraphemeClusterBreak = require( '@stdlib/string-prev-grapheme-cluster-break' );
+import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@deno/mod.js';
 ```
 
 #### prevGraphemeClusterBreak( string\[, fromIndex] )
@@ -115,7 +98,7 @@ var out = prevGraphemeClusterBreak( 'last man standing', 4 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var prevGraphemeClusterBreak = require( '@stdlib/string-prev-grapheme-cluster-break' );
+import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@deno/mod.js';
 
 console.log( prevGraphemeClusterBreak( 'last man standing', 4 ) );
 // => 3
@@ -136,77 +119,7 @@ console.log( prevGraphemeClusterBreak( '🌷', 1 ) );
 
 <!-- Section for describing a command-line interface. -->
 
-* * *
 
-<section class="cli">
-
-## CLI
-
-<section class="installation">
-
-## Installation
-
-To use as a general utility, install the CLI package globally
-
-```bash
-npm install -g @stdlib/string-prev-grapheme-cluster-break-cli
-```
-
-</section>
-<!-- CLI usage documentation. -->
-
-
-<section class="usage">
-
-### Usage
-
-```text
-Usage: prev-grapheme-cluster-break [options] [<string>]
-
-Options:
-
-  -h,    --help                Print this message.
-  -V,    --version             Print the package version.
-         --fromIndex index     Position in string. Default: string.length-1.
-```
-
-</section>
-
-<!-- /.usage -->
-
-<!-- CLI usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- CLI usage examples. -->
-
-<section class="examples">
-
-### Examples
-
-```bash
-$ prev-grapheme-cluster-break --fromIndex=2 अनुच्छेद
-0
-```
-
-To use as a [standard stream][standard-streams],
-
-```bash
-$ echo -n 'अनुच्छेद' | prev-grapheme-cluster-break --fromIndex=2
-0
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.cli -->
 
 <!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
@@ -233,7 +146,7 @@ $ echo -n 'अनुच्छेद' | prev-grapheme-cluster-break --fromIndex=2
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
