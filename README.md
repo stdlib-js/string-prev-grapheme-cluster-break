@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-prev-grapheme-cluster-break/tags). For example,
+
+```javascript
 import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@v0.2.1-deno/mod.js';
 ```
 
@@ -98,7 +103,7 @@ var out = prevGraphemeClusterBreak( 'last man standing', 4 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@v0.2.1-deno/mod.js';
+import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@deno/mod.js';
 
 console.log( prevGraphemeClusterBreak( 'last man standing', 4 ) );
 // => 3
