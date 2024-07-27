@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-prev-grapheme-cluster-break/tags). For example,
+
+```javascript
 import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@v0.2.2-esm/index.mjs';
 ```
 
@@ -103,7 +108,7 @@ var out = prevGraphemeClusterBreak( 'last man standing', 4 );
 <body>
 <script type="module">
 
-import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@v0.2.2-esm/index.mjs';
+import prevGraphemeClusterBreak from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-prev-grapheme-cluster-break@esm/index.mjs';
 
 console.log( prevGraphemeClusterBreak( 'last man standing', 4 ) );
 // => 3
